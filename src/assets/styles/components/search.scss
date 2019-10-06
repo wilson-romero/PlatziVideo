@@ -1,0 +1,15 @@
+.search-bar {
+  height: 304px;
+  input {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+    padding: 0 16px;
+    height: 40px;
+    outline-style: none;
+    &::placeholder {
+      color: white;
+    }
+  }
+}

@@ -1,5 +1,7 @@
-body{
-    background: red;
-    color: white;
-    margin: 0;
+@import './variables.scss';
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+
+body {
+  margin: 0;
+  font-family: $theme-font;
 }

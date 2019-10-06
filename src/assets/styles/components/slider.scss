@@ -1,0 +1,10 @@
+.slider {
+  width: 100%;
+  overflow: hidden;
+  padding: 16px;
+  position: relative;
+  .slider__container {
+    white-space: nowrap;
+    padding-bottom: 8px;
+  }
+}

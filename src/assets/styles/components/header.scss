@@ -1,0 +1,24 @@
+header {
+  padding: 1rem;
+  color: white;
+
+  #logo {
+    width: 200px;
+  }
+  .menu {
+    position: relative;
+    ul {
+      display: none;
+      list-style: none;
+      position: absolute;
+      top: 40px;
+      width: 160px;
+    }
+    &:hover ul {
+      display: block;
+    }
+    a {
+      color: white;
+    }
+  }
+}
